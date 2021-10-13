@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8851588903988891476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8851588903988891477}
+  - component: {fileID: 8851588903988891474}
+  m_Layer: 0
+  m_Name: Tutorial Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8851588903988891477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8851588903988891476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 21}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8851588903988891474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8851588903988891476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de07b2d08d567d4994537c73f3e36e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _obstacleForCollision: {fileID: 8085189409111900859, guid: 2ecf8e514a7beb946a2355333e4e260b,
+    type: 3}
+  _obstaclePrefabs:
+  - {fileID: 3291780756165408287, guid: 9c72644a80a3c4144850569144046d49, type: 3}
+  - {fileID: 5016929350926403873, guid: 265673f808e5b624c9987141eb7f848e, type: 3}
+  - {fileID: 7104415133295885897, guid: 476cf053893cff24da68780e494828bd, type: 3}
+  _destructibleObstaclePrefabs:
+  - {fileID: 1613223136437269973, guid: 2ced0eececbcdfa409194fd3ff1145fe, type: 3}
+  - {fileID: 8684129407307756910, guid: 86e21147723443b4e9bb5e6cfe854f32, type: 3}
+  - {fileID: 3688322868471822405, guid: f95c5fb94be819c45a2bd5633b0d58a2, type: 3}
+  _coinPrefabs:
+  - {fileID: 2157345112643353841, guid: d464723cbb36160429efdada37060e4e, type: 3}
+  - {fileID: 1412949676348205836, guid: e72805c16514a92438a3e0c611719d03, type: 3}
+  _spawnInterval: 2
